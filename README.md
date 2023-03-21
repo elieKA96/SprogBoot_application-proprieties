@@ -1,1 +1,7 @@
 # SprogBoot_application-proprieties
+
+spring.datasource.url=jdbc:mysql://localhost:3306/your_databasename
+spring.datasource.username=your_database_access_username
+spring.datasource.password=your_database_access_password
+spring.jpa.hibernate.ddl-auto=update
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
